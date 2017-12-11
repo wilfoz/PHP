@@ -48,4 +48,11 @@
 		return formatPrice($totals['vlprice']);
 	}
 
+	function formatDate($date)
+	{
+
+		return date('d/m/y', strtotime($date));
+
+	}
+
 ?>
